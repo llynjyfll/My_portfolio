@@ -104,7 +104,7 @@
 
 .btn--outline:hover { background: rgba(255,255,255,0.6); }
 
-/* ── Photo ── */
+
 .hero__photo-wrap {
   position: relative;
   flex-shrink: 0;
@@ -155,8 +155,6 @@
   opacity: 0.25;
   z-index: 0;
 }
-
-/* ── Tablet ── */
 @media (max-width: 900px) {
   .hero { margin: 16px 16px 0; }
   .hero__inner { padding: 44px 32px; gap: 32px; }
@@ -164,7 +162,6 @@
   .hero__photo-ring { width: 190px; height: 190px; }
 }
 
-/* ── Mobile ── */
 @media (max-width: 640px) {
   .hero { margin: 12px 12px 0; border-radius: var(--radius-lg); }
   .hero__inner {

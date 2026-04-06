@@ -138,14 +138,12 @@
   gap: 6px;
 }
 
-/* ── Tablet: 2 col ── */
 @media (max-width: 900px) {
   .info-cards__grid {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
-/* ── Mobile: 1 col ── */
 @media (max-width: 580px) {
   .info-cards__grid {
     grid-template-columns: 1fr;
