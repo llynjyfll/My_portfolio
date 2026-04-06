@@ -5,27 +5,27 @@ const projects = [
     icon: '📋',
     title: 'Simple To-Do App',
     desc: 'A beginner task manager to add, edit, and delete tasks.',
-    tags: ['HTML', 'CSS', 'JavaScript'],
-    demo: '#',
-    github: '#',
+    tags: ['HTML', 'React.js', 'MongoDB', 'Express', 'Node.js'],
+    demo: 'https://awesome-todos-cjq8.onrender.com/',
+    github: 'https://github.com/llynjyfll',
     color: '#dce5f2',
   },
   {
     icon: '🗄️',
-    title: 'Student Record System',
-    desc: 'A CRUD system with admin panel to manage student information.',
-    tags: ['MERN Stack', 'MongoDB', 'Express'],
-    demo: '#',
-    github: '#',
+    title: 'Audio Playlist Prototyping',
+    desc: 'An Audio playlist with a simple and intuitive interface, designed to enhance the music listening experience.',
+    tags: ['Figma'],
+    demo: 'https://www.figma.com/proto/1Wh3Um6O48P15hjgE0BEKi/Challenge-2-fullo?node-id=1-2&p=f&t=uMhzR4wobsyj1OQM-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1',
+    github: 'https://github.com/llynjyfll',
     color: '#d5e4e0',
   },
   {
     icon: '💻',
-    title: 'Portfolio Website',
-    desc: 'My personal portfolio to showcase my skills and projects.',
-    tags: ['React', 'Vite', 'CSS'],
-    demo: '#',
-    github: '#',
+    title: 'Pink Serenity Bouquet',
+    desc: 'My personal Design for Flower',
+    tags: ['Figma'],
+    demo: 'https://www.figma.com/proto/zIYUQ6qEbuhauTVXF3GlgZ/Challenge-1-Fullo?node-id=87-13&p=f&t=SIXC2f4OIV6uuFbg-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=87%3A13',
+    github: 'https://github.com/llynjyfll',
     color: '#e8dff2',
   },
 ]
@@ -33,8 +33,7 @@ const projects = [
 export default function Projects() {
   return (
     <section id="projects" className="projects">
-      <>
-        <div className="projects__header">
+      <div className="projects__header">
           <div className="projects__heading">
             <span className="projects__icon">📁</span>
             <div>
@@ -75,7 +74,6 @@ export default function Projects() {
             </div>
           ))}
         </div>
-      </>
     </section>
   )
 }

@@ -17,8 +17,7 @@ export default function InfoCards() {
           </p>
           <p className="card__label">I'm currently learning:</p>
           <ul className="card__checklist">
-            <li><span className="check">✔</span> Frontend &amp; Backend Development</li>
-            <li><span className="check">✔</span> Database Management</li>
+            <li><span className="check">✔</span> Frontend &amp; UX Researcher</li>
             <li><span className="check">✔</span> UI/UX Design</li>
           </ul>
           <p className="card__goal">
@@ -54,14 +53,14 @@ export default function InfoCards() {
 
           <p className="card__label">Frontend</p>
           <div className="card__tags">
-            {['HTML', 'CSS', 'JavaScript', 'React (Basic)'].map(s => (
+            {['HTML', 'CSS', 'JavaScript', 'React.js','Figma'].map(s => (
               <span key={s} className="tag">{s}</span>
             ))}
           </div>
 
           <p className="card__label" style={{ marginTop: 14 }}>Backend</p>
           <div className="card__tags">
-            {['Node.js', 'Express (Basic)'].map(s => (
+            {['Node.js', 'Express.js', 'MongoDB'].map(s => (
               <span key={s} className="tag">{s}</span>
             ))}
           </div>

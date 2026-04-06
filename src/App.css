@@ -6,5 +6,17 @@
 
 .main {
   flex: 1;
-  padding-bottom: 0;
+  max-width: 1264px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 32px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 900px) {
+  .main { padding: 0 16px; }
+}
+
+@media (max-width: 580px) {
+  .main { padding: 0 12px; }
 }
