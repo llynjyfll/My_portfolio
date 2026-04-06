@@ -10,7 +10,7 @@ export default function Bottom() {
         </div>
         <p className="bcard__sub">I'd love to connect and collaborate!</p>
 
-        <a href="mailto:yourname@gmail.com" className="contact-row">
+        <a href="mailto:joyallyn0@gmail.com" className="contact-row">
           <span className="contact-row__icon">✉</span>
           joyallyn0@gmail.com
         </a>
@@ -27,6 +27,10 @@ export default function Bottom() {
                 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/>
             </svg>
             github.com/llynjyfll
+          </a>
+          <a href="https://www.linkedin.com/in/allyn-joy-16a1b4401/" className="social-chip social-chip--blue">
+            <span>in</span>
+            linkedin.com/in/AllynJoy
           </a>
           <a href="https://www.facebook.com/allynjoy.fullo.9?" className="social-chip social-chip--fb">
             <span>f</span>
