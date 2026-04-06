@@ -35,8 +35,8 @@ export default function InfoCards() {
           <p className="card__degree">
             Bachelor of Science in<br />Information Technology
           </p>
-          <p className="card__school">Your School Name</p>
-          <p className="card__year">📅 2022 – Present</p>
+          <p className="card__school">Western Institute of Technology</p>
+          <p className="card__year">📅 2026 – Present</p>
           <p className="card__label" style={{ marginTop: 16 }}>Relevant Subjects:</p>
           <ul className="card__subjects">
             <li>Web Development</li>
